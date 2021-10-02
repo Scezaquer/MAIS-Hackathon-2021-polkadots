@@ -3,7 +3,7 @@ import os
 def preprocess(dataset):
     for root, dirs, files in os.walk(dataset):
         for x in files:
-            if x.endswith(".jpg"):
+            if x.endswith(".jpg") or x.endswith(".png"):
                 print(x)
                 img = Image.open(root + "\\" + x)
                 img.thumbnail((300, 300))
@@ -12,4 +12,4 @@ def preprocess(dataset):
                 img = enhancer.enhance(1.75)
                 img = img.filter(ImageFilter.FIND_EDGES)
                 #img = img.filter(ImageFilter.GaussianBlur(0.75))
-                img.save("Preprocessed dataset/{}.jpg".format(x))
+                img.save("Preprocessed dataset/{}".format(x))
