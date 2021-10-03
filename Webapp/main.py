@@ -9,7 +9,7 @@ import base64
 import io
 
 app = Flask(__name__)
-model = loadNN(path)
+#model = loadNN("saved_model.pb")
 
 @app.route("/")
 def index():

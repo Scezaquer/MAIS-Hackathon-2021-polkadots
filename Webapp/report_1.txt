@@ -1,0 +1,29 @@
+type cells 
+Classification Report
+
+              precision    recall  f1-score   support
+
+    1 Colony       0.52      1.00      0.68       154
+  2 Colonies       0.00      0.00      0.00        54
+  3 Colonies       0.00      0.00      0.00        34
+  4 Colonies       0.00      0.00      0.00        20
+  5 Colonies       0.00      0.00      0.00        11
+  6 Colonies       0.00      0.00      0.00         5
+Confluential       0.00      0.00      0.00        11
+     Outlier       0.00      0.00      0.00        11
+
+    accuracy                           0.51       300
+   macro avg       0.06      0.12      0.08       300
+weighted avg       0.26      0.51      0.35       300
+
+
+Confusion Matrix
+
+[[154   0   0   0   0   0   0   0]
+ [ 54   0   0   0   0   0   0   0]
+ [ 34   0   0   0   0   0   0   0]
+ [ 19   1   0   0   0   0   0   0]
+ [ 11   0   0   0   0   0   0   0]
+ [  5   0   0   0   0   0   0   0]
+ [ 11   0   0   0   0   0   0   0]
+ [ 11   0   0   0   0   0   0   0]]

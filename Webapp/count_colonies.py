@@ -4,10 +4,6 @@ from PIL import Image, ImageEnhance, ImageFilter, ImageDraw, ImageOps
 import scipy.ndimage as ndi
 import numpy as np
 
-from skimage.segmentation import slic
-from skimage.util import img_as_float
-from skimage.segmentation import mark_boundaries
-
 def remove_edges(initial_img):
     img = initial_img.convert("L")#turns the image into greyscale
     enhancer = ImageEnhance.Contrast(img)   #Enhances contrast
