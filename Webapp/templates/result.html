@@ -16,9 +16,9 @@
 <div style="background-color: rgba(255,255,255,.75);">
 <br>
 <br>
-<img src= {{uploaded file path here}}  alt="Bacteria Culture" width="400" height="300" class="center">
+<img src= {{url_for('static', filename='image.jpg')}}  alt="Bacteria Culture" width="400" height="300" class="center">
  <br>
-  <h2 style="font-family: Arial Black">Result: {{input range here from colonies-counter}}</h2>
+  <h2 style="font-family: Arial Black">Result: {{ count }}</h2>
   <br>
   <br>
 </div>

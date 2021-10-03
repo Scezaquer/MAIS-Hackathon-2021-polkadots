@@ -1,8 +1,8 @@
 from PIL import ImageEnhance, ImageFilter, Image
 import cv2 as cv
 
-def preprocess(img):
-    img = Image.open(img)   #Opens the image
+def preprocess(file):
+    img = Image.open(file)   #Opens the image
     #img.thumbnail((300, 300))           #resizes it to 300x300
     img = img.convert("L")              #Converts it to greyscale
     enhancer = ImageEnhance.Contrast(img)   #Increases contrast
