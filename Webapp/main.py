@@ -2,12 +2,14 @@
 from flask import Flask
 from flask import Flask, render_template, request, redirect, url_for
 from count_colonies import *
+from segmentation import *
 import numpy as np
 import os
 import base64
 import io
 
 app = Flask(__name__)
+model = loadNN(path)
 
 @app.route("/")
 def index():
@@ -24,8 +26,8 @@ def count():
         im.save(data, "JPEG")
         encoded_img_data = base64.b64encode(data.getvalue())
 
-        img = preprocess(uploaded_file)
-        nbr_colonies = count_colonies(np.asarray(img))
+        #img = preprocess(img)
+        nbr_colonies = count_colonies(Image.open(uploaded_file))
         #print(nbr_colonies)
     return render_template("result.html", count=nbr_colonies, img_data=encoded_img_data.decode('utf-8'))
 
