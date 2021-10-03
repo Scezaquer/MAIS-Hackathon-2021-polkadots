@@ -18,8 +18,9 @@ def count():
         img = preprocess(uploaded_file)
         nbr_colonies = count_colonies(np.asarray(img))
         print(nbr_colonies)
-        #uploaded_file.save(uploaded_file.filename)
+        uploaded_file.save("templates/image.jpg")
     return redirect(url_for('index'))
 
 if __name__ == "__main__":
     app.run(host="127.0.0.1", port=8080, debug=True)
+    print("test")
