@@ -16,7 +16,7 @@
 <div style="background-color: rgba(255,255,255,.75);">
 <br>
 <br>
-<img src= {{url_for('static', filename='image.jpg')}}  alt="Bacteria Culture" width="400" height="300" class="center">
+<img src="data:image/jpeg;base64,{{ img_data }}" alt="Bacteria Culture" width="400" height="300" class="center">
  <br>
   <h2 style="font-family: Arial Black">Result: {{ count }}</h2>
   <br>

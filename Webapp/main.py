@@ -3,6 +3,9 @@ from flask import Flask
 from flask import Flask, render_template, request, redirect, url_for
 from count_colonies import *
 import numpy as np
+import os
+import base64
+import io
 
 app = Flask(__name__)
 
@@ -15,12 +18,18 @@ def count():
     print("okayyyy")
     uploaded_file = request.files['fileupload']
     if uploaded_file.filename != '':
-        uploaded_file.save("static/image.jpg")
+        im = Image.open(uploaded_file)
+        im.thumbnail((400, 300))
+        data = io.BytesIO()
+        im.save(data, "JPEG")
+        encoded_img_data = base64.b64encode(data.getvalue())
+
         img = preprocess(uploaded_file)
         nbr_colonies = count_colonies(np.asarray(img))
         #print(nbr_colonies)
-    return render_template("result.html", count=nbr_colonies)
+    return render_template("result.html", count=nbr_colonies, img_data=encoded_img_data.decode('utf-8'))
 
 if __name__ == "__main__":
     app.run(host="127.0.0.1", port=8080, debug=True)
-    print("test")
+    for x in os.listdir(app.config["UPLOAD_FOLDER"]):
+        os.remove(os.path.join(app.config['UPLOAD_FOLDER'], x))
