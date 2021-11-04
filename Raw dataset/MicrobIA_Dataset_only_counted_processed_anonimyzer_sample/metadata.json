@@ -1,0 +1,665 @@
+{
+    "image_hierarchy": {
+	"Niguarda1_129": {
+            "Niguarda1_129": {
+                "F6": {
+                    "0": "IMG_Niguarda1_139_129", 
+                    "975": "IMG_Niguarda1_936_129"
+                }, 
+                "S54": {
+                    "0": "IMG_Niguarda1_7583_129", 
+                    "975": "IMG_Niguarda1_1964_129"
+                }
+            }
+        },
+	"Niguarda1_258": {
+            "Niguarda1_258": {
+                "F6": {
+                    "0": "IMG_Niguarda1_6160_258", 
+                    "963": "IMG_Niguarda1_7178_258"
+                }, 
+                "S54": {
+                    "0": "IMG_Niguarda1_8384_258", 
+                    "963": "IMG_Niguarda1_1216_258"
+                }
+            }
+        },
+	"Niguarda1_259": {
+            "Niguarda1_259": {
+                "F6": {
+                    "0": "IMG_Niguarda1_7898_259", 
+                    "973": "IMG_Niguarda1_4119_259"
+                }, 
+                "S54": {
+                    "0": "IMG_Niguarda1_7291_259",  
+                    "973": "IMG_Niguarda1_295_259"
+                }
+            }
+        },
+	"Niguarda1_316": {
+            "Niguarda1_316": {
+                "F6": {
+                    "0": "IMG_Niguarda1_7297_316", 
+                    "962": "IMG_Niguarda1_372_316"
+                }, 
+                "S54": {
+                    "0": "IMG_Niguarda1_737_316", 
+                    "962": "IMG_Niguarda1_2876_316"
+                }
+            }
+        }, 
+	"Niguarda1_446": {
+            "Niguarda1_446": {
+                "F6": {
+                    "0": "IMG_Niguarda1_2579_446", 
+                    "963": "IMG_Niguarda1_6169_446"
+                }, 
+                "S54": {
+                    "0": "IMG_Niguarda1_4651_446", 
+                    "963": "IMG_Niguarda1_6855_446"
+                }
+            }
+        }
+    },
+    "images_list": {
+	"IMG_Niguarda1_139_129": {
+            "Incubation Type": "37", 
+            "Lighting Type": "F6", 
+            "Loop Type": "1", 
+            "Malditoff Diagnosis": "First match: Klebsiella pneumoniae (+++), Second match: Klebsiella pneumoniae (+++), ", 
+            "Material Origin": "Urine", 
+            "Minutes of Incubation": "0", 
+            "Plate Center": [
+                1785, 
+                1780
+            ], 
+            "Plate Radius": 1780, 
+            "Relative Path": "F/T0h_4h/IMG_Niguarda1_139_129_F6_T0.png", 
+            "Solid Agar Plate": "Id:1, Name:Orientation, Type:Chromagar, Producer:BD BBL", 
+            "Solid Agar Plate Unique Reference": "Niguarda1_129", 
+            "Specimen Unique Reference": "Niguarda1_129"
+        },
+	"IMG_Niguarda1_1964_129": {
+            "Count Records": {
+                "Alessandro Ferrari": {
+                    "Bacterial Load Estimation": 1000, 
+                    "Comment": null, 
+                    "Count details for each strain": [
+                        {
+                            "E.coli": false, 
+                            "Enterococcus": false, 
+                            "KES": false, 
+                            "Maldi Identification": null, 
+                            "PMP": false, 
+                            "Quantity": 1000, 
+                            "S.agalactiae": false, 
+                            "S.saprophyticus": false, 
+                            "Strain id": 0
+                        }
+                    ], 
+                    "Technician": "Alessandro Ferrari"
+                }, 
+                "Carla Lacchini": {
+                    "Bacterial Load Estimation": 500, 
+                    "Comment": null, 
+                    "Count details for each strain": [
+                        {
+                            "E.coli": false, 
+                            "Enterococcus": false, 
+                            "KES": false, 
+                            "Maldi Identification": null, 
+                            "PMP": false, 
+                            "Quantity": 500, 
+                            "S.agalactiae": false, 
+                            "S.saprophyticus": false, 
+                            "Strain id": 0
+                        }
+                    ], 
+                    "Technician": "Carla Lacchini"
+                }
+            }, 
+            "Incubation Type": "37", 
+            "Lighting Type": "S54", 
+            "Loop Type": "1", 
+            "Malditoff Diagnosis": "First match: Klebsiella pneumoniae (+++), Second match: Klebsiella pneumoniae (+++), ", 
+            "Material Origin": "Urine", 
+            "Minutes of Incubation": "975", 
+            "Plate Center": [
+                1785, 
+                1780
+            ], 
+            "Plate Radius": 1780, 
+            "Relative Path": "S/T4h_inf/IMG_Niguarda1_1964_129_S54_T975.png", 
+            "Solid Agar Plate": "Id:1, Name:Orientation, Type:Chromagar, Producer:BD BBL", 
+            "Solid Agar Plate Unique Reference": "Niguarda1_129", 
+            "Specimen Unique Reference": "Niguarda1_129"
+        }, 
+	"IMG_Niguarda1_7583_129": {
+            "Incubation Type": "37", 
+            "Lighting Type": "S54", 
+            "Loop Type": "1", 
+            "Malditoff Diagnosis": "First match: Klebsiella pneumoniae (+++), Second match: Klebsiella pneumoniae (+++), ", 
+            "Material Origin": "Urine", 
+            "Minutes of Incubation": "0", 
+            "Plate Center": [
+                1785, 
+                1780
+            ], 
+            "Plate Radius": 1780, 
+            "Relative Path": "S/T0h_4h/IMG_Niguarda1_7583_129_S54_T0.png", 
+            "Solid Agar Plate": "Id:1, Name:Orientation, Type:Chromagar, Producer:BD BBL", 
+            "Solid Agar Plate Unique Reference": "Niguarda1_129", 
+            "Specimen Unique Reference": "Niguarda1_129"
+        }, 
+	"IMG_Niguarda1_936_129": {
+            "Count Records": {
+                "Alessandro Ferrari": {
+                    "Bacterial Load Estimation": 1000, 
+                    "Comment": null, 
+                    "Count details for each strain": [
+                        {
+                            "E.coli": false, 
+                            "Enterococcus": false, 
+                            "KES": false, 
+                            "Maldi Identification": null, 
+                            "PMP": false, 
+                            "Quantity": 1000, 
+                            "S.agalactiae": false, 
+                            "S.saprophyticus": false, 
+                            "Strain id": 0
+                        }
+                    ], 
+                    "Technician": "Alessandro Ferrari"
+                }, 
+                "Carla Lacchini": {
+                    "Bacterial Load Estimation": 500, 
+                    "Comment": null, 
+                    "Count details for each strain": [
+                        {
+                            "E.coli": false, 
+                            "Enterococcus": false, 
+                            "KES": false, 
+                            "Maldi Identification": null, 
+                            "PMP": false, 
+                            "Quantity": 500, 
+                            "S.agalactiae": false, 
+                            "S.saprophyticus": false, 
+                            "Strain id": 0
+                        }
+                    ], 
+                    "Technician": "Carla Lacchini"
+                }
+            }, 
+            "Incubation Type": "37", 
+            "Lighting Type": "F6", 
+            "Loop Type": "1", 
+            "Malditoff Diagnosis": "First match: Klebsiella pneumoniae (+++), Second match: Klebsiella pneumoniae (+++), ", 
+            "Material Origin": "Urine", 
+            "Minutes of Incubation": "975", 
+            "Plate Center": [
+                1785, 
+                1780
+            ], 
+            "Plate Radius": 1780, 
+            "Relative Path": "F/T4h_inf/IMG_Niguarda1_936_129_F6_T975.png", 
+            "Solid Agar Plate": "Id:1, Name:Orientation, Type:Chromagar, Producer:BD BBL", 
+            "Solid Agar Plate Unique Reference": "Niguarda1_129", 
+            "Specimen Unique Reference": "Niguarda1_129"
+        },
+	"IMG_Niguarda1_1216_258": {
+            "Count Records": {
+                "Carla Lacchini": {
+                    "Bacterial Load Estimation": 500, 
+                    "Comment": null, 
+                    "Count details for each strain": [
+                        {
+                            "E.coli": false, 
+                            "Enterococcus": false, 
+                            "KES": false, 
+                            "Maldi Identification": null, 
+                            "PMP": false, 
+                            "Quantity": 500, 
+                            "S.agalactiae": false, 
+                            "S.saprophyticus": false, 
+                            "Strain id": 0
+                        }
+                    ], 
+                    "Technician": "Carla Lacchini"
+                }
+            }, 
+            "Incubation Type": "37", 
+            "Lighting Type": "S54", 
+            "Loop Type": "1", 
+            "Malditoff Diagnosis": "Not specified.", 
+            "Material Origin": "Urine", 
+            "Minutes of Incubation": "963", 
+            "Plate Center": [
+                1647, 
+                1643
+            ], 
+            "Plate Radius": 1643, 
+            "Relative Path": "S/T4h_inf/IMG_Niguarda1_1216_258_S54_T963.png", 
+            "Solid Agar Plate": "Id:1, Name:Orientation, Type:Chromagar, Producer:BD BBL", 
+            "Solid Agar Plate Unique Reference": "Niguarda1_258", 
+            "Specimen Unique Reference": "Niguarda1_258"
+        }, 
+	"IMG_Niguarda1_6160_258": {
+            "Incubation Type": "37", 
+            "Lighting Type": "F6", 
+            "Loop Type": "1", 
+            "Malditoff Diagnosis": "Not specified.", 
+            "Material Origin": "Urine", 
+            "Minutes of Incubation": "0", 
+            "Plate Center": [
+                1647, 
+                1643
+            ], 
+            "Plate Radius": 1643, 
+            "Relative Path": "F/T0h_4h/IMG_Niguarda1_6160_258_F6_T0.png", 
+            "Solid Agar Plate": "Id:1, Name:Orientation, Type:Chromagar, Producer:BD BBL", 
+            "Solid Agar Plate Unique Reference": "Niguarda1_258", 
+            "Specimen Unique Reference": "Niguarda1_258"
+        }, 
+	"IMG_Niguarda1_7178_258": {
+            "Count Records": {
+                "Carla Lacchini": {
+                    "Bacterial Load Estimation": 500, 
+                    "Comment": null, 
+                    "Count details for each strain": [
+                        {
+                            "E.coli": false, 
+                            "Enterococcus": false, 
+                            "KES": false, 
+                            "Maldi Identification": null, 
+                            "PMP": false, 
+                            "Quantity": 500, 
+                            "S.agalactiae": false, 
+                            "S.saprophyticus": false, 
+                            "Strain id": 0
+                        }
+                    ], 
+                    "Technician": "Carla Lacchini"
+                }
+            }, 
+            "Incubation Type": "37", 
+            "Lighting Type": "F6", 
+            "Loop Type": "1", 
+            "Malditoff Diagnosis": "Not specified.", 
+            "Material Origin": "Urine", 
+            "Minutes of Incubation": "963", 
+            "Plate Center": [
+                1647, 
+                1643
+            ], 
+            "Plate Radius": 1643, 
+            "Relative Path": "F/T4h_inf/IMG_Niguarda1_7178_258_F6_T963.png", 
+            "Solid Agar Plate": "Id:1, Name:Orientation, Type:Chromagar, Producer:BD BBL", 
+            "Solid Agar Plate Unique Reference": "Niguarda1_258", 
+            "Specimen Unique Reference": "Niguarda1_258"
+        },
+	"IMG_Niguarda1_8384_258": {
+            "Incubation Type": "37", 
+            "Lighting Type": "S54", 
+            "Loop Type": "1", 
+            "Malditoff Diagnosis": "Not specified.", 
+            "Material Origin": "Urine", 
+            "Minutes of Incubation": "0", 
+            "Plate Center": [
+                1647, 
+                1643
+            ], 
+            "Plate Radius": 1643, 
+            "Relative Path": "S/T0h_4h/IMG_Niguarda1_8384_258_S54_T0.png", 
+            "Solid Agar Plate": "Id:1, Name:Orientation, Type:Chromagar, Producer:BD BBL", 
+            "Solid Agar Plate Unique Reference": "Niguarda1_258", 
+            "Specimen Unique Reference": "Niguarda1_258"
+        },
+	"IMG_Niguarda1_295_259": {
+            "Count Records": {
+                "Carla Lacchini": {
+                    "Bacterial Load Estimation": 1005, 
+                    "Comment": null, 
+                    "Count details for each strain": [
+                        {
+                            "E.coli": false, 
+                            "Enterococcus": false, 
+                            "KES": false, 
+                            "Maldi Identification": null, 
+                            "PMP": false, 
+                            "Quantity": 1000, 
+                            "S.agalactiae": false, 
+                            "S.saprophyticus": false, 
+                            "Strain id": 0
+                        }, 
+                        {
+                            "E.coli": false, 
+                            "Enterococcus": false, 
+                            "KES": false, 
+                            "Maldi Identification": null, 
+                            "PMP": false, 
+                            "Quantity": 5, 
+                            "S.agalactiae": false, 
+                            "S.saprophyticus": false, 
+                            "Strain id": 0
+                        }
+                    ], 
+                    "Technician": "Carla Lacchini"
+                }
+            }, 
+            "Incubation Type": "37", 
+            "Lighting Type": "S54", 
+            "Loop Type": "1", 
+            "Malditoff Diagnosis": "First match: Acinetobacter baumannii (++), Staphylococcus epidermidis (+), Second match: Acinetobacter baumannii (++), Staphylococcus epidermidis (+), ", 
+            "Material Origin": "Urine", 
+            "Minutes of Incubation": "973", 
+            "Plate Center": [
+                1791, 
+                1789
+            ], 
+            "Plate Radius": 1789, 
+            "Relative Path": "S/T4h_inf/IMG_Niguarda1_295_259_S54_T973.png", 
+            "Solid Agar Plate": "Id:1, Name:Orientation, Type:Chromagar, Producer:BD BBL", 
+            "Solid Agar Plate Unique Reference": "Niguarda1_259", 
+            "Specimen Unique Reference": "Niguarda1_259"
+        }, 
+	"IMG_Niguarda1_4119_259": {
+            "Count Records": {
+                "Carla Lacchini": {
+                    "Bacterial Load Estimation": 1005, 
+                    "Comment": null, 
+                    "Count details for each strain": [
+                        {
+                            "E.coli": false, 
+                            "Enterococcus": false, 
+                            "KES": false, 
+                            "Maldi Identification": null, 
+                            "PMP": false, 
+                            "Quantity": 1000, 
+                            "S.agalactiae": false, 
+                            "S.saprophyticus": false, 
+                            "Strain id": 0
+                        }, 
+                        {
+                            "E.coli": false, 
+                            "Enterococcus": false, 
+                            "KES": false, 
+                            "Maldi Identification": null, 
+                            "PMP": false, 
+                            "Quantity": 5, 
+                            "S.agalactiae": false, 
+                            "S.saprophyticus": false, 
+                            "Strain id": 0
+                        }
+                    ], 
+                    "Technician": "Carla Lacchini"
+                }
+            }, 
+            "Incubation Type": "37", 
+            "Lighting Type": "F6", 
+            "Loop Type": "1", 
+            "Malditoff Diagnosis": "First match: Acinetobacter baumannii (++), Staphylococcus epidermidis (+), Second match: Acinetobacter baumannii (++), Staphylococcus epidermidis (+), ", 
+            "Material Origin": "Urine", 
+            "Minutes of Incubation": "973", 
+            "Plate Center": [
+                1791, 
+                1789
+            ], 
+            "Plate Radius": 1789, 
+            "Relative Path": "F/T4h_inf/IMG_Niguarda1_4119_259_F6_T973.png", 
+            "Solid Agar Plate": "Id:1, Name:Orientation, Type:Chromagar, Producer:BD BBL", 
+            "Solid Agar Plate Unique Reference": "Niguarda1_259", 
+            "Specimen Unique Reference": "Niguarda1_259"
+        }, 
+	"IMG_Niguarda1_7291_259": {
+            "Incubation Type": "37", 
+            "Lighting Type": "S54", 
+            "Loop Type": "1", 
+            "Malditoff Diagnosis": "First match: Acinetobacter baumannii (++), Staphylococcus epidermidis (+), Second match: Acinetobacter baumannii (++), Staphylococcus epidermidis (+), ", 
+            "Material Origin": "Urine", 
+            "Minutes of Incubation": "0", 
+            "Plate Center": [
+                1791, 
+                1789
+            ], 
+            "Plate Radius": 1789, 
+            "Relative Path": "S/T0h_4h/IMG_Niguarda1_7291_259_S54_T0.png", 
+            "Solid Agar Plate": "Id:1, Name:Orientation, Type:Chromagar, Producer:BD BBL", 
+            "Solid Agar Plate Unique Reference": "Niguarda1_259", 
+            "Specimen Unique Reference": "Niguarda1_259"
+        }, 
+	"IMG_Niguarda1_7898_259": {
+            "Incubation Type": "37", 
+            "Lighting Type": "F6", 
+            "Loop Type": "1", 
+            "Malditoff Diagnosis": "First match: Acinetobacter baumannii (++), Staphylococcus epidermidis (+), Second match: Acinetobacter baumannii (++), Staphylococcus epidermidis (+), ", 
+            "Material Origin": "Urine", 
+            "Minutes of Incubation": "0", 
+            "Plate Center": [
+                1791, 
+                1789
+            ], 
+            "Plate Radius": 1789, 
+            "Relative Path": "F/T0h_4h/IMG_Niguarda1_7898_259_F6_T0.png", 
+            "Solid Agar Plate": "Id:1, Name:Orientation, Type:Chromagar, Producer:BD BBL", 
+            "Solid Agar Plate Unique Reference": "Niguarda1_259", 
+            "Specimen Unique Reference": "Niguarda1_259"
+        }, 
+	"IMG_Niguarda1_2876_316": {
+            "Count Records": {
+                "Carla Lacchini": {
+                    "Bacterial Load Estimation": 500, 
+                    "Comment": null, 
+                    "Count details for each strain": [
+                        {
+                            "E.coli": false, 
+                            "Enterococcus": false, 
+                            "KES": false, 
+                            "Maldi Identification": null, 
+                            "PMP": false, 
+                            "Quantity": 500, 
+                            "S.agalactiae": false, 
+                            "S.saprophyticus": false, 
+                            "Strain id": 0
+                        }
+                    ], 
+                    "Technician": "Carla Lacchini"
+                }
+            }, 
+            "Incubation Type": "37", 
+            "Lighting Type": "S54", 
+            "Loop Type": "1", 
+            "Malditoff Diagnosis": "First match: Staphylococcus aureus (++), Second match: Staphylococcus aureus (++), ", 
+            "Material Origin": "Urine", 
+            "Minutes of Incubation": "962", 
+            "Plate Center": [
+                1656, 
+                1655
+            ], 
+            "Plate Radius": 1655, 
+            "Relative Path": "S/T4h_inf/IMG_Niguarda1_2876_316_S54_T962.png", 
+            "Solid Agar Plate": "Id:1, Name:Orientation, Type:Chromagar, Producer:BD BBL", 
+            "Solid Agar Plate Unique Reference": "Niguarda1_316", 
+            "Specimen Unique Reference": "Niguarda1_316"
+        }, 
+	"IMG_Niguarda1_372_316": {
+            "Count Records": {
+                "Carla Lacchini": {
+                    "Bacterial Load Estimation": 500, 
+                    "Comment": null, 
+                    "Count details for each strain": [
+                        {
+                            "E.coli": false, 
+                            "Enterococcus": false, 
+                            "KES": false, 
+                            "Maldi Identification": null, 
+                            "PMP": false, 
+                            "Quantity": 500, 
+                            "S.agalactiae": false, 
+                            "S.saprophyticus": false, 
+                            "Strain id": 0
+                        }
+                    ], 
+                    "Technician": "Carla Lacchini"
+                }
+            }, 
+            "Incubation Type": "37", 
+            "Lighting Type": "F6", 
+            "Loop Type": "1", 
+            "Malditoff Diagnosis": "First match: Staphylococcus aureus (++), Second match: Staphylococcus aureus (++), ", 
+            "Material Origin": "Urine", 
+            "Minutes of Incubation": "962", 
+            "Plate Center": [
+                1656, 
+                1655
+            ], 
+            "Plate Radius": 1655, 
+            "Relative Path": "F/T4h_inf/IMG_Niguarda1_372_316_F6_T962.png", 
+            "Solid Agar Plate": "Id:1, Name:Orientation, Type:Chromagar, Producer:BD BBL", 
+            "Solid Agar Plate Unique Reference": "Niguarda1_316", 
+            "Specimen Unique Reference": "Niguarda1_316"
+        }, 
+	"IMG_Niguarda1_7297_316": {
+            "Incubation Type": "37", 
+            "Lighting Type": "F6", 
+            "Loop Type": "1", 
+            "Malditoff Diagnosis": "First match: Staphylococcus aureus (++), Second match: Staphylococcus aureus (++), ", 
+            "Material Origin": "Urine", 
+            "Minutes of Incubation": "0", 
+            "Plate Center": [
+                1656, 
+                1655
+            ], 
+            "Plate Radius": 1655, 
+            "Relative Path": "F/T0h_4h/IMG_Niguarda1_7297_316_F6_T0.png", 
+            "Solid Agar Plate": "Id:1, Name:Orientation, Type:Chromagar, Producer:BD BBL", 
+            "Solid Agar Plate Unique Reference": "Niguarda1_316", 
+            "Specimen Unique Reference": "Niguarda1_316"
+        }, 
+	"IMG_Niguarda1_737_316": {
+            "Incubation Type": "37", 
+            "Lighting Type": "S54", 
+            "Loop Type": "1", 
+            "Malditoff Diagnosis": "First match: Staphylococcus aureus (++), Second match: Staphylococcus aureus (++), ", 
+            "Material Origin": "Urine", 
+            "Minutes of Incubation": "0", 
+            "Plate Center": [
+                1656, 
+                1655
+            ], 
+            "Plate Radius": 1655, 
+            "Relative Path": "S/T0h_4h/IMG_Niguarda1_737_316_S54_T0.png", 
+            "Solid Agar Plate": "Id:1, Name:Orientation, Type:Chromagar, Producer:BD BBL", 
+            "Solid Agar Plate Unique Reference": "Niguarda1_316", 
+            "Specimen Unique Reference": "Niguarda1_316"
+        },
+	"IMG_Niguarda1_2579_446": {
+            "Incubation Type": "37", 
+            "Lighting Type": "F6", 
+            "Loop Type": "1", 
+            "Malditoff Diagnosis": "Not specified.", 
+            "Material Origin": "Urine", 
+            "Minutes of Incubation": "0", 
+            "Plate Center": [
+                1658, 
+                1654
+            ], 
+            "Plate Radius": 1654, 
+            "Relative Path": "F/T0h_4h/IMG_Niguarda1_2579_446_F6_T0.png", 
+            "Solid Agar Plate": "Id:1, Name:Orientation, Type:Chromagar, Producer:BD BBL", 
+            "Solid Agar Plate Unique Reference": "Niguarda1_446", 
+            "Specimen Unique Reference": "Niguarda1_446"
+        }, 
+	"IMG_Niguarda1_4651_446": {
+            "Incubation Type": "37", 
+            "Lighting Type": "S54", 
+            "Loop Type": "1", 
+            "Malditoff Diagnosis": "Not specified.", 
+            "Material Origin": "Urine", 
+            "Minutes of Incubation": "0", 
+            "Plate Center": [
+                1658, 
+                1654
+            ], 
+            "Plate Radius": 1654, 
+            "Relative Path": "S/T0h_4h/IMG_Niguarda1_4651_446_S54_T0.png", 
+            "Solid Agar Plate": "Id:1, Name:Orientation, Type:Chromagar, Producer:BD BBL", 
+            "Solid Agar Plate Unique Reference": "Niguarda1_446", 
+            "Specimen Unique Reference": "Niguarda1_446"
+        },
+	"IMG_Niguarda1_6169_446": {
+            "Count Records": {
+                "Carla Lacchini": {
+                    "Bacterial Load Estimation": 100, 
+                    "Comment": null, 
+                    "Count details for each strain": [
+                        {
+                            "E.coli": false, 
+                            "Enterococcus": false, 
+                            "KES": false, 
+                            "Maldi Identification": null, 
+                            "PMP": false, 
+                            "Quantity": 100, 
+                            "S.agalactiae": false, 
+                            "S.saprophyticus": false, 
+                            "Strain id": 0
+                        }
+                    ], 
+                    "Technician": "Carla Lacchini"
+                }
+            }, 
+            "Incubation Type": "37", 
+            "Lighting Type": "F6", 
+            "Loop Type": "1", 
+            "Malditoff Diagnosis": "Not specified.", 
+            "Material Origin": "Urine", 
+            "Minutes of Incubation": "963", 
+            "Plate Center": [
+                1658, 
+                1654
+            ], 
+            "Plate Radius": 1654, 
+            "Relative Path": "F/T4h_inf/IMG_Niguarda1_6169_446_F6_T963.png", 
+            "Solid Agar Plate": "Id:1, Name:Orientation, Type:Chromagar, Producer:BD BBL", 
+            "Solid Agar Plate Unique Reference": "Niguarda1_446", 
+            "Specimen Unique Reference": "Niguarda1_446"
+        },
+	"IMG_Niguarda1_6855_446": {
+            "Count Records": {
+                "Carla Lacchini": {
+                    "Bacterial Load Estimation": 100, 
+                    "Comment": null, 
+                    "Count details for each strain": [
+                        {
+                            "E.coli": false, 
+                            "Enterococcus": false, 
+                            "KES": false, 
+                            "Maldi Identification": null, 
+                            "PMP": false, 
+                            "Quantity": 100, 
+                            "S.agalactiae": false, 
+                            "S.saprophyticus": false, 
+                            "Strain id": 0
+                        }
+                    ], 
+                    "Technician": "Carla Lacchini"
+                }
+            }, 
+            "Incubation Type": "37", 
+            "Lighting Type": "S54", 
+            "Loop Type": "1", 
+            "Malditoff Diagnosis": "Not specified.", 
+            "Material Origin": "Urine", 
+            "Minutes of Incubation": "963", 
+            "Plate Center": [
+                1658, 
+                1654
+            ], 
+            "Plate Radius": 1654, 
+            "Relative Path": "S/T4h_inf/IMG_Niguarda1_6855_446_S54_T963.png", 
+            "Solid Agar Plate": "Id:1, Name:Orientation, Type:Chromagar, Producer:BD BBL", 
+            "Solid Agar Plate Unique Reference": "Niguarda1_446", 
+            "Specimen Unique Reference": "Niguarda1_446"
+        }
+    }
+} 
+	
